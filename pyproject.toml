@@ -1,0 +1,15 @@
+[project]
+name = "sirenecrawl"
+version = "0.1.0"
+description = "Sirene API crawler"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.uv.build-backend]
+module-root = "src"
+module-name = "crawl"
+
+[tool.ruff]
+line-length = 80
